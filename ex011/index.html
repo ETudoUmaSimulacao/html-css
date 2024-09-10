@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em html5</title>
+</head>
+<body>
+    <h1>Imagens</h1>
+    <P>
+        Imagem DinÂmica <img src="imagens/html-png.png" alt="Html">
+    </P>
+    <p>
+        Tente abrir este site em diferentes dispositivos ou 
+        simplesmente aumente ou diminua o tamanho no seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/download.png" type="image/png">
+        <source media="(min-width:1050px )" srcset="imagens/html-png.png" type="image/png">
+        <img src="imagens/download.png" alt="Html flexivel">
+    </picture>
+
+</body>
+</html>
